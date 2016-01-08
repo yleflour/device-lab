@@ -1,0 +1,26 @@
+{
+  "name": "device-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "adbkit": "^2.3.1",
+    "babel-preset-es2015": "^6.3.13",
+    "bluebird": "^3.1.1",
+    "node-ios-device": "^0.7.0"
+  },
+  "devDependencies": {
+    "babel": "^6.3.26",
+    "babel-cli": "^6.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
