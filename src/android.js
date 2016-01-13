@@ -38,7 +38,7 @@ function stopTrackingDevices() {
 function installApp(appPath) {
   console.log(`Installing ${appPath} on all devices`);
   
-  return client.listDevices()
+  return listDevices()
   .then(function(devices) {
     return Promise.map(devices, function(device) {
       console.log(`Installing on ${device.id}`);
